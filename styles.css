@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#yearContainer {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #333;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    transition: transform 0.5s ease-in-out;
+    background-image: url(1.png);
+    background-size: cover;
+}
+
+#innerWheel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transform-origin: center center;
+}
+
+#year, #diameter {
+    margin: 10px 0;
+}
